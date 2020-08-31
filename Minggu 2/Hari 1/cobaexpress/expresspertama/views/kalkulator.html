@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kalkulator</title>
+ </head>
+<body>
+
+ <script>
+     function tambah(){ 
+      a=eval(document.getElementById("a").value);
+      b=eval(document.getElementById("b").value);
+      c=a+b;
+      document.getElementById("hasil").value=c;
+       }
+</script> 
+<script>
+       function kurang(){ 
+      a=document.getElementById("a").value;
+      b=document.getElementById("b").value;
+      c=a-b;
+      document.getElementById("hasil").value=c;
+       }
+</script>
+<script>
+       function kali(){ 
+      a=document.getElementById("a").value;
+      b=document.getElementById("b").value;
+      c=a*b;
+      document.getElementById("hasil").value=c;
+       }
+</script>
+<script>
+       function bagi(){ 
+      a=document.getElementById("a").value;
+      b=document.getElementById("b").value;
+      c=a/b;
+      document.getElementById("hasil").value=c;
+       }
+</script>
+
+  <h4>Bilangan 1</h4>
+  <input type="number" name="a" id="a">
+<br>
+  
+  <h4>Bilangan 2</h4>
+  <input type="number" name="b" id="b">
+  <br>
+
+  <h4>Hasil</h4>
+  <input type="number" name="hasil" id="hasil">
+  <br>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-delete>DEL</button>
+    <button data-operation>÷</button>
+    <button data-operation>*</button>
+    <button data-operation>+</button>
+    <button data-operation>-</button>
+ 
+    <button data-equals class="span-two">=</button>
+  </div>
+</body>
+</html>
