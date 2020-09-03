@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Playing with Inline with Khoirul</title>
+  </head>
+  <body>
+    <p style="color:blue;font-size:46px;">
+      playing Node.JS with 
+      <br><strong>Khoirul</strong> Badarudin di Ganteng
+    </p>
+  </body>
+</html>
