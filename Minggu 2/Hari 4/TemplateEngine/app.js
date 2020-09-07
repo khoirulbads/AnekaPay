@@ -38,7 +38,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.engine('khoirul', function (filePath, options, callback) { // define the template engine
+/*app.engine('khoirul', function (filePath, options, callback) { // define the template engine
    fs.readFile(filePath, function (err, content) {
        if (err) return callback(err)
        // this is an extremely simple template engine
@@ -51,7 +51,7 @@ app.engine('khoirul', function (filePath, options, callback) { // define the tem
        return callback(null, rendered)
    })
 })
-app.set('view engine', 'khoirul')
+app.set('view engine', 'khoirul')*/
 
 module.exports = app;
 
